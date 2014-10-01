@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 struct Tiger {
     var age = 0

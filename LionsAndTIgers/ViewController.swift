@@ -9,11 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var myImageView: UIImageView!
+    
     @IBOutlet weak var nameLabel: UILabel!
+    
     @IBOutlet weak var ageLabel: UILabel!
+    
     @IBOutlet weak var breedLabel: UILabel!
+
     
     var myTigers:[Tiger] = []
     
@@ -54,16 +58,22 @@ class ViewController: UIViewController {
         fourthTiger.image = UIImage(named: "MalayanTiger.jpg")
         
         myTigers += [secondTiger, thirdTiger, fourthTiger]
-        println("\(myTigers)")
     }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
 
     @IBAction func nextBarButtonPressed(sender: UIBarButtonItem) {
+        let randomIndex = Int(arc4random_uniform(UInt32(4)))
+        let tiger = myTigers[randomIndex]
+        
+        myImageView.image = tiger.image
+        nameLabel.text = tiger.name
+        ageLabel.text = "\(tiger.age)"
+        breedLabel.text = tiger.breed
     }
 }
-

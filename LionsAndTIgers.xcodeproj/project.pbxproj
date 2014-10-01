@@ -13,6 +13,7 @@
 		2B2699C919DC60D700739A9D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B2699C819DC60D700739A9D /* Images.xcassets */; };
 		2B2699CC19DC60D700739A9D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B2699CA19DC60D700739A9D /* LaunchScreen.xib */; };
 		2B2699D819DC60D700739A9D /* LionsAndTIgersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2699D719DC60D700739A9D /* LionsAndTIgersTests.swift */; };
+		2B2699E319DC635100739A9D /* Tiger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2699E219DC635100739A9D /* Tiger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		2B2699D119DC60D700739A9D /* LionsAndTIgersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LionsAndTIgersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B2699D619DC60D700739A9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B2699D719DC60D700739A9D /* LionsAndTIgersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LionsAndTIgersTests.swift; sourceTree = "<group>"; };
+		2B2699E219DC635100739A9D /* Tiger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tiger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		2B2699BE19DC60D700739A9D /* LionsAndTIgers */ = {
 			isa = PBXGroup;
 			children = (
+				2B2699E119DC631D00739A9D /* Models */,
 				2B2699C119DC60D700739A9D /* AppDelegate.swift */,
 				2B2699C319DC60D700739A9D /* ViewController.swift */,
 				2B2699C519DC60D700739A9D /* Main.storyboard */,
@@ -110,6 +113,14 @@
 				2B2699D619DC60D700739A9D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B2699E119DC631D00739A9D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2B2699E219DC635100739A9D /* Tiger.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B2699C419DC60D700739A9D /* ViewController.swift in Sources */,
+				2B2699E319DC635100739A9D /* Tiger.swift in Sources */,
 				2B2699C219DC60D700739A9D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -35,14 +35,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2B2699BC19DC60D700739A9D /* LionsAndTIgers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LionsAndTIgers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B2699BC19DC60D700739A9D /* LionsAndTigers.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LionsAndTigers.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B2699C019DC60D700739A9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B2699C119DC60D700739A9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B2699C319DC60D700739A9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2B2699C619DC60D700739A9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B2699C819DC60D700739A9D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2B2699CB19DC60D700739A9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		2B2699D119DC60D700739A9D /* LionsAndTIgersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LionsAndTIgersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B2699D119DC60D700739A9D /* LionsAndTigers.temp_caseinsensitive_renameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LionsAndTigers.temp_caseinsensitive_renameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B2699D619DC60D700739A9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B2699D719DC60D700739A9D /* LionsAndTIgersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LionsAndTIgersTests.swift; sourceTree = "<group>"; };
 		2B2699E219DC635100739A9D /* Tiger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tiger.swift; sourceTree = "<group>"; };
@@ -77,8 +77,8 @@
 		2B2699B319DC60D700739A9D = {
 			isa = PBXGroup;
 			children = (
-				2B2699BE19DC60D700739A9D /* LionsAndTIgers */,
-				2B2699D419DC60D700739A9D /* LionsAndTIgersTests */,
+				2B2699BE19DC60D700739A9D /* LionsAndTigers */,
+				2B2699D419DC60D700739A9D /* LionsAndTigersTests */,
 				2B2699BD19DC60D700739A9D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,13 +86,13 @@
 		2B2699BD19DC60D700739A9D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2B2699BC19DC60D700739A9D /* LionsAndTIgers.app */,
-				2B2699D119DC60D700739A9D /* LionsAndTIgersTests.xctest */,
+				2B2699BC19DC60D700739A9D /* LionsAndTigers.temp_caseinsensitive_rename.app */,
+				2B2699D119DC60D700739A9D /* LionsAndTigers.temp_caseinsensitive_renameTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2B2699BE19DC60D700739A9D /* LionsAndTIgers */ = {
+		2B2699BE19DC60D700739A9D /* LionsAndTigers */ = {
 			isa = PBXGroup;
 			children = (
 				2B2699E119DC631D00739A9D /* Models */,
@@ -103,6 +103,7 @@
 				2B2699CA19DC60D700739A9D /* LaunchScreen.xib */,
 				2B2699BF19DC60D700739A9D /* Supporting Files */,
 			);
+			name = LionsAndTigers;
 			path = LionsAndTIgers;
 			sourceTree = "<group>";
 		};
@@ -115,12 +116,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		2B2699D419DC60D700739A9D /* LionsAndTIgersTests */ = {
+		2B2699D419DC60D700739A9D /* LionsAndTigersTests */ = {
 			isa = PBXGroup;
 			children = (
 				2B2699D719DC60D700739A9D /* LionsAndTIgersTests.swift */,
 				2B2699D519DC60D700739A9D /* Supporting Files */,
 			);
+			name = LionsAndTigersTests;
 			path = LionsAndTIgersTests;
 			sourceTree = "<group>";
 		};
@@ -158,9 +160,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2B2699BB19DC60D700739A9D /* LionsAndTIgers */ = {
+		2B2699BB19DC60D700739A9D /* LionsAndTigers.temp_caseinsensitive_rename */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2B2699DB19DC60D700739A9D /* Build configuration list for PBXNativeTarget "LionsAndTIgers" */;
+			buildConfigurationList = 2B2699DB19DC60D700739A9D /* Build configuration list for PBXNativeTarget "LionsAndTigers.temp_caseinsensitive_rename" */;
 			buildPhases = (
 				2B2699B819DC60D700739A9D /* Sources */,
 				2B2699B919DC60D700739A9D /* Frameworks */,
@@ -170,14 +172,14 @@
 			);
 			dependencies = (
 			);
-			name = LionsAndTIgers;
+			name = LionsAndTigers.temp_caseinsensitive_rename;
 			productName = LionsAndTIgers;
-			productReference = 2B2699BC19DC60D700739A9D /* LionsAndTIgers.app */;
+			productReference = 2B2699BC19DC60D700739A9D /* LionsAndTigers.temp_caseinsensitive_rename.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2B2699D019DC60D700739A9D /* LionsAndTIgersTests */ = {
+		2B2699D019DC60D700739A9D /* LionsAndTigers.temp_caseinsensitive_renameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2B2699DE19DC60D700739A9D /* Build configuration list for PBXNativeTarget "LionsAndTIgersTests" */;
+			buildConfigurationList = 2B2699DE19DC60D700739A9D /* Build configuration list for PBXNativeTarget "LionsAndTigers.temp_caseinsensitive_renameTests" */;
 			buildPhases = (
 				2B2699CD19DC60D700739A9D /* Sources */,
 				2B2699CE19DC60D700739A9D /* Frameworks */,
@@ -188,9 +190,9 @@
 			dependencies = (
 				2B2699D319DC60D700739A9D /* PBXTargetDependency */,
 			);
-			name = LionsAndTIgersTests;
+			name = LionsAndTigers.temp_caseinsensitive_renameTests;
 			productName = LionsAndTIgersTests;
-			productReference = 2B2699D119DC60D700739A9D /* LionsAndTIgersTests.xctest */;
+			productReference = 2B2699D119DC60D700739A9D /* LionsAndTigers.temp_caseinsensitive_renameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -211,7 +213,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2B2699B719DC60D700739A9D /* Build configuration list for PBXProject "LionsAndTIgers" */;
+			buildConfigurationList = 2B2699B719DC60D700739A9D /* Build configuration list for PBXProject "LionsAndTigers" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -224,8 +226,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2B2699BB19DC60D700739A9D /* LionsAndTIgers */,
-				2B2699D019DC60D700739A9D /* LionsAndTIgersTests */,
+				2B2699BB19DC60D700739A9D /* LionsAndTigers.temp_caseinsensitive_rename */,
+				2B2699D019DC60D700739A9D /* LionsAndTigers.temp_caseinsensitive_renameTests */,
 			);
 		};
 /* End PBXProject section */
@@ -282,7 +284,7 @@
 /* Begin PBXTargetDependency section */
 		2B2699D319DC60D700739A9D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2B2699BB19DC60D700739A9D /* LionsAndTIgers */;
+			target = 2B2699BB19DC60D700739A9D /* LionsAndTigers.temp_caseinsensitive_rename */;
 			targetProxy = 2B2699D219DC60D700739A9D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -390,7 +392,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LionsAndTIgers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LionsAndTigers.temp_caseinsensitive_rename;
 			};
 			name = Debug;
 		};
@@ -400,7 +402,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LionsAndTIgers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LionsAndTigers.temp_caseinsensitive_rename;
 			};
 			name = Release;
 		};
@@ -418,7 +420,7 @@
 				);
 				INFOPLIST_FILE = LionsAndTIgersTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LionsAndTigers.temp_caseinsensitive_renameTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LionsAndTIgers.app/LionsAndTIgers";
 			};
 			name = Debug;
@@ -433,7 +435,7 @@
 				);
 				INFOPLIST_FILE = LionsAndTIgersTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LionsAndTigers.temp_caseinsensitive_renameTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LionsAndTIgers.app/LionsAndTIgers";
 			};
 			name = Release;
@@ -441,7 +443,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2B2699B719DC60D700739A9D /* Build configuration list for PBXProject "LionsAndTIgers" */ = {
+		2B2699B719DC60D700739A9D /* Build configuration list for PBXProject "LionsAndTigers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B2699D919DC60D700739A9D /* Debug */,
@@ -450,21 +452,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2B2699DB19DC60D700739A9D /* Build configuration list for PBXNativeTarget "LionsAndTIgers" */ = {
+		2B2699DB19DC60D700739A9D /* Build configuration list for PBXNativeTarget "LionsAndTigers.temp_caseinsensitive_rename" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B2699DC19DC60D700739A9D /* Debug */,
 				2B2699DD19DC60D700739A9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		2B2699DE19DC60D700739A9D /* Build configuration list for PBXNativeTarget "LionsAndTIgersTests" */ = {
+		2B2699DE19DC60D700739A9D /* Build configuration list for PBXNativeTarget "LionsAndTigers.temp_caseinsensitive_renameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B2699DF19DC60D700739A9D /* Debug */,
 				2B2699E019DC60D700739A9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

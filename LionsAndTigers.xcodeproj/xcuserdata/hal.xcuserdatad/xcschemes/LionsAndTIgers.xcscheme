@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2B2699BB19DC60D700739A9D"
-               BuildableName = "LionsAndTIgers.app"
-               BlueprintName = "LionsAndTIgers"
-               ReferencedContainer = "container:LionsAndTIgers.xcodeproj">
+               BuildableName = "LionsAndTigers.temp_caseinsensitive_rename.app"
+               BlueprintName = "LionsAndTigers.temp_caseinsensitive_rename"
+               ReferencedContainer = "container:LionsAndTigers.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2B2699D019DC60D700739A9D"
-               BuildableName = "LionsAndTIgersTests.xctest"
-               BlueprintName = "LionsAndTIgersTests"
-               ReferencedContainer = "container:LionsAndTIgers.xcodeproj">
+               BuildableName = "LionsAndTigers.temp_caseinsensitive_renameTests.xctest"
+               BlueprintName = "LionsAndTigers.temp_caseinsensitive_renameTests"
+               ReferencedContainer = "container:LionsAndTigers.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2B2699D019DC60D700739A9D"
-               BuildableName = "LionsAndTIgersTests.xctest"
-               BlueprintName = "LionsAndTIgersTests"
-               ReferencedContainer = "container:LionsAndTIgers.xcodeproj">
+               BuildableName = "LionsAndTigers.temp_caseinsensitive_renameTests.xctest"
+               BlueprintName = "LionsAndTigers.temp_caseinsensitive_renameTests"
+               ReferencedContainer = "container:LionsAndTigers.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2B2699BB19DC60D700739A9D"
-            BuildableName = "LionsAndTIgers.app"
-            BlueprintName = "LionsAndTIgers"
-            ReferencedContainer = "container:LionsAndTIgers.xcodeproj">
+            BuildableName = "LionsAndTigers.temp_caseinsensitive_rename.app"
+            BlueprintName = "LionsAndTigers.temp_caseinsensitive_rename"
+            ReferencedContainer = "container:LionsAndTigers.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2B2699BB19DC60D700739A9D"
-            BuildableName = "LionsAndTIgers.app"
-            BlueprintName = "LionsAndTIgers"
-            ReferencedContainer = "container:LionsAndTIgers.xcodeproj">
+            BuildableName = "LionsAndTigers.temp_caseinsensitive_rename.app"
+            BlueprintName = "LionsAndTigers.temp_caseinsensitive_rename"
+            ReferencedContainer = "container:LionsAndTigers.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2B2699BB19DC60D700739A9D"
-            BuildableName = "LionsAndTIgers.app"
-            BlueprintName = "LionsAndTIgers"
-            ReferencedContainer = "container:LionsAndTIgers.xcodeproj">
+            BuildableName = "LionsAndTigers.temp_caseinsensitive_rename.app"
+            BlueprintName = "LionsAndTigers.temp_caseinsensitive_rename"
+            ReferencedContainer = "container:LionsAndTigers.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

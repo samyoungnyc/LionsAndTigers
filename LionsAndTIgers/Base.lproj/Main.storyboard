@@ -19,7 +19,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="riZ-Pu-Dym">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="0.0" width="400" height="556"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="400" height="600"/>
                                 </variation>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CVe-ig-HdB">
@@ -49,6 +49,19 @@
                                     <rect key="frame" x="16" y="438" width="124" height="21"/>
                                 </variation>
                             </label>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YqN-Ex-bHJ">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <items>
+                                    <barButtonItem title="Next" id="j65-Md-4yP">
+                                        <connections>
+                                            <action selector="nextBarButtonPressed:" destination="vXZ-lx-hvc" id="xdS-mo-O9h"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="526" width="400" height="44"/>
+                                </variation>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -57,6 +70,7 @@
                                 <exclude reference="CVe-ig-HdB"/>
                                 <exclude reference="o1y-g9-4Rd"/>
                                 <exclude reference="i2g-oP-C4E"/>
+                                <exclude reference="YqN-Ex-bHJ"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -65,17 +79,11 @@
                                 <include reference="CVe-ig-HdB"/>
                                 <include reference="o1y-g9-4Rd"/>
                                 <include reference="i2g-oP-C4E"/>
+                                <include reference="YqN-Ex-bHJ"/>
                             </mask>
                         </variation>
                     </view>
-                    <toolbarItems>
-                        <barButtonItem title="Name" id="buQ-uL-N9G">
-                            <connections>
-                                <action selector="nextBarButtonPressed:" destination="vXZ-lx-hvc" id="qmG-ac-VhH"/>
-                            </connections>
-                        </barButtonItem>
-                        <barButtonItem style="plain" systemItem="flexibleSpace" id="8ZC-9u-Imy"/>
-                    </toolbarItems>
+                    <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="ageLabel" destination="o1y-g9-4Rd" id="8xn-YF-DsR"/>
